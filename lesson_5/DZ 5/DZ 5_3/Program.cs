@@ -44,3 +44,8 @@ void DiffMaxMin(double[] arr)
 }
 
 
+double[] arr_1 = MassNums(int.Parse(Console.ReadLine()),
+                          int.Parse(Console.ReadLine()),
+                          int.Parse(Console.ReadLine()));
+Print(arr_1);
+DiffMaxMin(arr_1);
